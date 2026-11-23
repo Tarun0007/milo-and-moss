@@ -24,39 +24,45 @@ export function ShopByBrands() {
         </div>
 
         {/* Brand Cards Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-6">
           {brands.map((brand) => (
             <Link
               key={brand.id}
               href={`/shop?brand=${encodeURIComponent(brand.name)}`}
-              className="group p-6 rounded-3xl bg-white border border-[#E7E4DC] hover:border-[#23483B] hover:shadow-float transition-shadow duration-300 flex flex-col justify-between"
+              className="group p-4 sm:p-6 rounded-2xl sm:rounded-3xl bg-white border border-[#E7E4DC] hover:border-[#23483B] hover:shadow-float transition-all duration-300 flex flex-col justify-between"
             >
               <div>
                 {/* Brand Wordmark Logo */}
-                <div className="h-12 flex items-center mb-3">
-                  <span className="font-heading text-sm sm:text-base font-extrabold text-[#23483B] group-hover:text-[#2B5848] transition-colors">
+                <div className="h-10 sm:h-12 flex items-center mb-2 sm:mb-3">
+                  <span className="font-heading text-xs sm:text-base font-bold text-[#23483B] group-hover:text-[#2B5848] transition-colors leading-tight">
                     {brand.logoText}
                   </span>
                 </div>
 
-                <span className="text-xs font-medium text-[#7A807A] block mb-1">
-                  {brand.origin}
-                </span>
+                <div className="flex items-center gap-1.5 mb-1.5">
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#88B29A]" />
+                  <span className="text-[0.6875rem] font-medium text-[#7A807A]">
+                    {brand.origin}
+                  </span>
+                </div>
 
-                <h4 className="text-xs font-medium text-[#252822] mb-2">
+                <h4 className="text-[0.6875rem] sm:text-xs font-semibold text-[#252822] mb-1.5 line-clamp-1">
                   {brand.tagline}
                 </h4>
 
-                <p className="text-[0.6875rem] text-[#7A807A] line-clamp-2 leading-relaxed">
+                <p className="text-[0.625rem] sm:text-[0.6875rem] text-[#7A807A] line-clamp-2 leading-relaxed">
                   {brand.description}
                 </p>
               </div>
 
-              <div className="mt-5 pt-3 border-t border-[#E7E4DC]/60 flex items-center justify-between text-xs font-semibold text-[#23483B]">
-                <span className="text-[0.625rem] px-2 py-0.5 rounded-full bg-[#FAF8F3] border border-[#E7E4DC] text-[#7A807A]">
-                  {brand.specialty}
+              {/* Clean, Non-wrapping Action Footer */}
+              <div className="mt-4 pt-3 border-t border-[#E7E4DC]/60 flex items-center justify-between text-xs font-semibold text-[#23483B]">
+                <span className="text-[0.625rem] sm:text-xs text-[#23483B] font-semibold group-hover:underline">
+                  Explore
                 </span>
-                <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-1" />
+                <span className="w-6 h-6 rounded-full bg-[#FAF8F3] group-hover:bg-[#23483B] group-hover:text-white transition-colors flex items-center justify-center flex-shrink-0">
+                  <ArrowRight className="w-3 h-3 transition-transform group-hover:translate-x-0.5" />
+                </span>
               </div>
             </Link>
           ))}

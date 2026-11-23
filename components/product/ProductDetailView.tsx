@@ -77,7 +77,7 @@ export function ProductDetailView({ product, relatedProducts }: ProductDetailVie
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-12 pb-24 lg:pb-12">
       {/* Breadcrumbs */}
       <nav className="flex items-center gap-2 text-xs text-[#7A807A] mb-8 overflow-x-auto whitespace-nowrap">
         <Link href="/" className="hover:text-[#23483B]">Home</Link>
@@ -92,9 +92,9 @@ export function ProductDetailView({ product, relatedProducts }: ProductDetailVie
       </nav>
 
       {/* Main Product Section: Gallery (Left) + Details/Actions (Right) */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start mb-16">
-        {/* Left Column: Gallery (6 Cols) */}
-        <div className="lg:col-span-6 sticky top-24">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-12 items-start mb-16">
+        {/* Left Column: Gallery (6 Cols) - Sticky only on Desktop to prevent mobile overlapping */}
+        <div className="lg:col-span-6 lg:sticky lg:top-24">
           <ProductGallery
             images={product.images}
             productName={product.name}
@@ -540,6 +540,47 @@ export function ProductDetailView({ product, relatedProducts }: ProductDetailVie
           </div>
         </div>
       )}
+
+      {/* Sticky Mobile Add to Bag Bar (Thumb-friendly & high-converting) */}
+      <div className="fixed bottom-0 inset-x-0 z-40 bg-white/95 backdrop-blur-md border-t border-[#E7E4DC] px-4 py-2.5 lg:hidden flex items-center justify-between gap-2 shadow-lg">
+        <div className="min-w-0 flex-1">
+          <div className="flex items-baseline gap-1.5">
+            <span className="text-base font-bold text-[#23483B]">
+              {formatPrice(product.price * quantity)}
+            </span>
+            {product.originalPrice > product.price && (
+              <span className="text-xs text-[#7A807A] line-through">
+                {formatPrice(product.originalPrice)}
+              </span>
+            )}
+          </div>
+          <span className="text-[0.625rem] text-[#7A807A] truncate block">
+            {selectedSize !== 'One Size' ? `Size: ${selectedSize}` : 'Free delivery over ₹999'}
+          </span>
+        </div>
+
+        <div className="flex items-center gap-2 flex-shrink-0">
+          <button
+            onClick={handleWishlist}
+            aria-label="Wishlist toggle"
+            className={cn(
+              "p-2.5 rounded-full border transition-colors flex-shrink-0",
+              isFavorited
+                ? "bg-[#F3C6B3] text-[#23483B] border-[#F3C6B3]"
+                : "bg-white text-[#7A807A] border-[#E7E4DC]"
+            )}
+          >
+            <Heart className={cn("w-4 h-4", isFavorited && "fill-current")} />
+          </button>
+          <button
+            onClick={handleAddToCart}
+            className="px-4 py-2.5 rounded-full bg-[#23483B] text-[#FAF8F3] text-xs font-semibold hover:bg-[#1A362C] transition-colors shadow-sm flex items-center gap-1.5 flex-shrink-0"
+          >
+            <ShoppingBag className="w-3.5 h-3.5" />
+            <span>Add to Bag</span>
+          </button>
+        </div>
+      </div>
     </div>
   );
 }

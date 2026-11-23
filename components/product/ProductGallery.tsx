@@ -46,12 +46,12 @@ export function ProductGallery({ images, productName, themeColor }: ProductGalle
   return (
     <div className="space-y-4">
       {/* 2D / 3D Toggle Pill Bar */}
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between gap-2">
         <div className="inline-flex p-1 rounded-2xl bg-white border border-[#23483B]/10 shadow-xs">
           <button
             onClick={() => setIs3DMode(false)}
             className={cn(
-              "flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-colors",
+              "flex items-center gap-1.5 px-3 sm:px-3.5 py-1.5 rounded-xl text-[0.6875rem] sm:text-xs font-semibold transition-colors",
               !is3DMode
                 ? "bg-[#23483B] text-white shadow-xs"
                 : "text-[#7A807A] hover:text-[#23483B]"
@@ -63,7 +63,7 @@ export function ProductGallery({ images, productName, themeColor }: ProductGalle
           <button
             onClick={() => setIs3DMode(true)}
             className={cn(
-              "flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-colors",
+              "flex items-center gap-1.5 px-3 sm:px-3.5 py-1.5 rounded-xl text-[0.6875rem] sm:text-xs font-semibold transition-colors",
               is3DMode
                 ? "bg-[#23483B] text-white shadow-xs"
                 : "text-[#7A807A] hover:text-[#23483B]"
@@ -77,7 +77,7 @@ export function ProductGallery({ images, productName, themeColor }: ProductGalle
         {!is3DMode && (
           <button
             onClick={() => setIsZoomed(!isZoomed)}
-            className="text-xs text-[#7A807A] hover:text-[#23483B] flex items-center gap-1 font-medium"
+            className="text-[0.6875rem] sm:text-xs text-[#7A807A] hover:text-[#23483B] flex items-center gap-1 font-medium flex-shrink-0"
           >
             <ZoomIn className="w-3.5 h-3.5" />
             <span>{isZoomed ? 'Reset zoom' : 'Click to zoom'}</span>
@@ -113,7 +113,7 @@ export function ProductGallery({ images, productName, themeColor }: ProductGalle
 
       {/* Thumbnail Selection Strip */}
       {!is3DMode && images.length > 1 && (
-        <div className="flex gap-2.5">
+        <div className="flex gap-2.5 overflow-x-auto pb-1">
           {images.map((img, idx) => (
             <button
               key={idx}
@@ -122,9 +122,9 @@ export function ProductGallery({ images, productName, themeColor }: ProductGalle
                 setIsZoomed(false);
               }}
               className={cn(
-                "relative w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden bg-white border-2 transition-transform transition-colors",
+                "relative w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden bg-white border-2 transition-transform transition-colors flex-shrink-0",
                 selectedIndex === idx
-                  ? "border-[#23483B] scale-105 ring-1 ring-[#23483B]"
+                  ? "border-[#23483B] ring-1 ring-[#23483B]"
                   : "border-[#23483B]/10 opacity-75 hover:opacity-100"
               )}
             >
