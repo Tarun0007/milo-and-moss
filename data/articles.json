@@ -1,0 +1,140 @@
+[
+  {
+    "id": "newborn-first-40-days",
+    "slug": "the-art-of-the-first-forty-days",
+    "title": "The Art of the First Forty Days: A Calmer Fourth Trimester",
+    "subtitle": "How to create an unhurried, nourishing sanctuary for both baby and recovering mother.",
+    "excerpt": "The fourth trimester is rarely about schedules—it is about warmth, touch, soft lighting, and embracing the profound transition of bringing new life into the world.",
+    "content": [
+      "The concept of the fourth trimester acknowledges that for the initial twelve weeks after birth, a baby is biologically primed for the close sensory rhythms of the womb. High-contrast harsh lighting, rigid routines, and sensory bombardment can overwhelm both newborn and mother.",
+      "Creating a 'nesting corner' in your home allows you to keep feeding supplies, soothing balms, hydrating drinks, and skin-to-skin wraps within arm's reach. Choose muted organic textiles that breathe freely against the newborn's skin, preventing friction and regulating body temperature.",
+      "Remember that soothing is not a performance. Skin-to-skin contact regulates the infant's heart rate, stabilizes cortisol levels, and triggers gentle oxytocin release that helps postpartum healing."
+    ],
+    "category": "Newborn",
+    "author": {
+      "name": "Dr. Ananya Varma",
+      "role": "Pediatrician & Perinatal Consultant",
+      "avatar": "https://images.unsplash.com/photo-1594824813590-789a5b12cca2?auto=format&fit=crop&w=200&q=80"
+    },
+    "readTime": "5 min read",
+    "publishedAt": "November 14, 2026",
+    "image": "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?auto=format&fit=crop&w=1200&q=80",
+    "tags": ["Newborn", "Fourth Trimester", "Mother Care", "Nesting"],
+    "featured": true
+  },
+  {
+    "id": "understanding-infant-sleep",
+    "slug": "understanding-infant-sleep-cycles-without-rigid-training",
+    "title": "Understanding Infant Sleep Cycles: Rhythm Over Rigidity",
+    "subtitle": "Demystifying 45-minute sleep cycles, wake windows, and cues for gentle bedtime routines.",
+    "excerpt": "Unlike adult sleep cycles that last 90 to 120 minutes, infant sleep cycles are shorter and feature far more REM sleep—an evolutionary safeguard for brain development.",
+    "content": [
+      "Many modern parents feel undue anxiety when an infant rouses after 40 minutes of sleep. Biologically, this brief transition is completely natural. Recognizing tired cues—such as a vacant stare, slight eyebrow redness, or slowing arm movements—helps catch the window before overtired cortisol spikes.",
+      "A calming wind-down ritual doesn't need to be intricate: a warm sponge bath, two drops of botanical massage oil warmed between the palms, dim amber illumination, and a breathable organic sleepsuit signal the pineal gland that evening has arrived.",
+      "Keep bedroom temperatures between 20°C and 22°C (68°F–72°F) and opt for breathable single-layer swaddles or TOG-rated sleep sacks to promote safe, sound slumber."
+    ],
+    "category": "Sleep",
+    "author": {
+      "name": "Kavita Sen",
+      "role": "Certified Infant Sleep Educator",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80"
+    },
+    "readTime": "6 min read",
+    "publishedAt": "November 08, 2026",
+    "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=1200&q=80",
+    "tags": ["Sleep Rhythms", "Wake Windows", "Bedtime Sanctuary", "Swaddling"],
+    "featured": false
+  },
+  {
+    "id": "baby-led-weaning-first-bites",
+    "slug": "baby-led-weaning-and-first-bites-with-confidence",
+    "title": "Baby-Led Weaning & First Bites: Cultivating a Lifelong Joy of Food",
+    "subtitle": "How to introduce varied textures, manage natural gag reflexes, and foster curious palate development.",
+    "excerpt": "Around the six-month milestone, mealtime shifts from pure nourishment to sensory discovery—feeling the cool texture of steamed carrots or exploring avocado fingers.",
+    "content": [
+      "When beginning solids, the goal is exposure, motor grip coordination, and joy rather than caloric volume. Soft-steamed sticks cut to the length of an adult pinky finger allow palmar grasping while preventing choking risks.",
+      "Invest in ergonomic food-grade silicone suction plates and shallow curved spoons that accommodate small mouths and developing jaw alignment.",
+      "Embrace the mess! Squishing food between fingers is sensory learning that builds neural pathways connecting tactile feedback to oral motor acceptance."
+    ],
+    "category": "Nutrition",
+    "author": {
+      "name": "Chef Rohan Mathur & Dr. Neha Rao",
+      "role": "Pediatric Dietitian & Culinary Nutritionist",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80"
+    },
+    "readTime": "7 min read",
+    "publishedAt": "October 29, 2026",
+    "image": "https://images.unsplash.com/photo-1595347097560-69238724e7bd?auto=format&fit=crop&w=1200&q=80",
+    "tags": ["Weaning", "Nutrition", "Sensory Feeding", "Milestones"],
+    "featured": false
+  },
+  {
+    "id": "montessori-at-home-play",
+    "slug": "montessori-play-spaces-that-foster-independent-wonder",
+    "title": "Creating Montessori Spaces: Less Toys, Deeper Wonder",
+    "subtitle": "Why toy rotation and natural open-ended materials dramatically lengthen toddler focus.",
+    "excerpt": "A low wooden shelf with five accessible, beautifully presented toys fosters deeper concentration than a toy chest overflowing with noisy plastic gimmicks.",
+    "content": [
+      "Children are natural scientists. When presented with open-ended materials—smooth wooden rings, silks, nesting cups, and stacking pebbles—they explore balance, gravity, friction, and spatial relationships without being prescribed a single outcome.",
+      "Toy rotation is a powerful tool: display four to six items at toddler eye-level, storing the remainder away. Rotating them every two weeks reignites fascination and respect for their belongings.",
+      "Incorporate child-sized functional tools: small water pitchers for pouring practice, low coat hooks, and floor-level mirrors that encourage autonomy and body confidence."
+    ],
+    "category": "Play & Learning",
+    "author": {
+      "name": "Devika Nambiar",
+      "role": "AMI Montessori Guide & Playroom Architect",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=200&q=80"
+    },
+    "readTime": "4 min read",
+    "publishedAt": "October 18, 2026",
+    "image": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=1200&q=80",
+    "tags": ["Montessori", "Sensory Toys", "Toy Rotation", "Playroom Design"],
+    "featured": true
+  },
+  {
+    "id": "choosing-first-shoes-podiatry",
+    "slug": "podiatry-guide-to-first-steps-and-barefoot-shoes",
+    "title": "A Podiatrist's Guide to First Steps: Why Barefoot is Best",
+    "subtitle": "How natural nerve endings in tiny soles wire balance, posture, and spatial proprioception.",
+    "excerpt": "A baby's foot contains 26 tiny bones that are mostly soft cartilage at birth. Rigid soles hinder proper muscle development, while flexible pre-walkers mimic barefoot freedom.",
+    "content": [
+      "During early walking, thousands of nerve endings on the plantar surface send rapid positional signals to the toddler's cerebellum. Whenever safe indoors, barefoot exploration is superior.",
+      "When heading outdoors onto grass or pavement, choose ultra-flexible soft-sole moccasins or shoes with wide toe boxes that permit natural toe-splaying.",
+      "Avoid elevated heels, rigid stiff heel counters, or narrow toe springs that compress growing arches and disrupt gait symmetry."
+    ],
+    "category": "Parenting Guides",
+    "author": {
+      "name": "Dr. Pradeep Nair",
+      "role": "Pediatric Orthopedic Specialist",
+      "avatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=200&q=80"
+    },
+    "readTime": "5 min read",
+    "publishedAt": "October 02, 2026",
+    "image": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1200&q=80",
+    "tags": ["First Steps", "Podiatry", "Barefoot", "Motor Skills"],
+    "featured": false
+  },
+  {
+    "id": "sustainable-parenting-guide",
+    "slug": "conscious-parenting-choosing-longevity-over-landfills",
+    "title": "Conscious Beginnings: Designing an Eco-Intentional Nursery",
+    "subtitle": "Choosing heirloom materials, multi-stage furniture, and certified non-toxic finishes.",
+    "excerpt": "Children grow remarkably fast, but their furniture and toys need not become obsolete within months. Invest in modular design that adapts through multiple growth stages.",
+    "content": [
+      "Select convertible cribs that transition from infant bassinet to toddler bed and eventually a stylish reading bench. Solid hardwoods like beech and oak can be refinished and passed down to siblings or future generations.",
+      "Check for OEKO-TEX Standard 100 or GOTS certifications on all textiles that touch skin. These standards ensure zero chemical pesticides, heavy metal dye residues, or formaldehyde finishes.",
+      "By adopting a mindful mindset of 'buy fewer, buy better,' parents foster an appreciation for natural textures, craftsmanship, and planetary care right from day one."
+    ],
+    "category": "Parenting Guides",
+    "author": {
+      "name": "Maya & Siddharth Joshi",
+      "role": "Sustainable Living Educators",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80"
+    },
+    "readTime": "5 min read",
+    "publishedAt": "September 24, 2026",
+    "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1200&q=80",
+    "tags": ["Sustainable", "Nursery", "Eco-Friendly", "Non-Toxic"],
+    "featured": false
+  }
+]

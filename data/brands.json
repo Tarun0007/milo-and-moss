@@ -1,0 +1,82 @@
+[
+  {
+    "id": "little-fern",
+    "name": "Little Fern",
+    "slug": "little-fern",
+    "tagline": "Pure botanicals & organic textiles",
+    "description": "Born in the foothills, Little Fern creates heirloom organic cotton apparel and gentle plant-based skincare crafted with pure alpine calendula and chamomile.",
+    "origin": "Himachal Pradesh, India",
+    "specialty": "GOTS Organic Textiles & Botanicals",
+    "logoText": "LITTLE FERN"
+  },
+  {
+    "id": "pebble-pine",
+    "name": "Pebble & Pine",
+    "slug": "pebble-pine",
+    "tagline": "Timeless Scandinavian nursery woodwork",
+    "description": "Pebble & Pine designs minimalist solid wood nursery furniture, non-toxic heirloom activity toys, and durable playroom architecture for conscious homes.",
+    "origin": "Bangalore & Copenhagen",
+    "specialty": "FSC-Certified Beechwood & Play",
+    "logoText": "PEBBLE & PINE"
+  },
+  {
+    "id": "tiny-orbit",
+    "name": "Tiny Orbit",
+    "slug": "tiny-orbit",
+    "tagline": "Forward-thinking gear for little adventurers",
+    "description": "Pioneering lightweight travel gear, modular strollers, and smart ergonomic baby carriers built with aerospace-grade recycled alloys and shock-absorbing foams.",
+    "origin": "Pune, India",
+    "specialty": "Ergonomic Gear & Travel Systems",
+    "logoText": "TINY ORBIT"
+  },
+  {
+    "id": "cloudberry-kids",
+    "name": "Cloudberry Kids",
+    "slug": "cloudberry-kids",
+    "tagline": "Whimsical Scandinavian knitwear & sleep",
+    "description": "Knitted from breathable Merino wool and Aegean organic cotton, Cloudberry blankets, wraps, and sleepsuits surround babies in cloud-like warmth.",
+    "origin": "Jaipur, India",
+    "specialty": "Organic Knits & Sleep Sacks",
+    "logoText": "CLOUDBERRY"
+  },
+  {
+    "id": "mini-meadow",
+    "name": "Mini Meadow",
+    "slug": "mini-meadow",
+    "tagline": "Pure silicone feeding essentials",
+    "description": "Mini Meadow crafts sensory-friendly, 100% European LFGB food-grade silicone mealtime tableware, spill-proof cups, and ergonomic weaning cutlery.",
+    "origin": "Coimbatore, India",
+    "specialty": "Food-Grade Silicone Tableware",
+    "logoText": "MINI MEADOW"
+  },
+  {
+    "id": "sprout-society",
+    "name": "Sprout Society",
+    "slug": "sprout-society",
+    "tagline": "Curated Montessori learning & tactile play",
+    "description": "Inspiring open-ended curiosity and fine motor skills with tactile sorting puzzles, high-contrast sensory cards, and non-toxic natural beeswax crayons.",
+    "origin": "Mumbai, India",
+    "specialty": "Montessori Play & Sensory Tools",
+    "logoText": "SPROUT SOCIETY"
+  },
+  {
+    "id": "moss-moon",
+    "name": "Moss & Moon",
+    "slug": "moss-moon",
+    "tagline": "Quiet luxury for postpartum & nursing",
+    "description": "Ultra-soft bamboo loungewear, memory foam nursing pillows, and restorative botanical balms designed specifically for maternal recovery and comfort.",
+    "origin": "Goa, India",
+    "specialty": "Maternity & Postpartum Care",
+    "logoText": "MOSS & MOON"
+  },
+  {
+    "id": "nordic-nestling",
+    "name": "Nordic Nestling",
+    "slug": "nordic-nestling",
+    "tagline": "Orthopedic first steps & moccasins",
+    "description": "Hand-stitched genuine calfskin and vegetable-tanned leather pre-walkers designed with pediatric podiatrists to support natural arch development.",
+    "origin": "Agra, India",
+    "specialty": "Orthopedic Soft-Sole Footwear",
+    "logoText": "NORDIC NESTLING"
+  }
+]

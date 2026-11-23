@@ -1,0 +1,122 @@
+[
+  {
+    "id": "clothing",
+    "name": "Baby Clothing",
+    "slug": "clothing",
+    "description": "Breathable GOTS-certified organic cotton bodysuits, rompers, and layered sets crafted for delicate skin.",
+    "image": "https://images.unsplash.com/photo-1522771930-78848d9293e8?auto=format&fit=crop&w=800&q=80",
+    "subcategories": ["Bodysuits & Onesies", "Rompers & Jumpsuits", "Sleepsuits & Pyjamas", "Knitwear & Cardigans", "Frocks & Sets"],
+    "featuredTag": "100% Organic Cotton",
+    "colorAccent": "#F3C6B3"
+  },
+  {
+    "id": "toys",
+    "name": "Toys & Play",
+    "slug": "toys",
+    "description": "Open-ended, Montessori-inspired wooden toys, sensory rattles, and non-toxic stacking blocks.",
+    "image": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=800&q=80",
+    "subcategories": ["Wooden Stacking", "Montessori Activity", "Sensory Rattles", "Soft Plush", "Musical & Rhythm"],
+    "featuredTag": "Sustainably Harvested Wood",
+    "colorAccent": "#B9D5C4"
+  },
+  {
+    "id": "baby-care",
+    "name": "Baby Care",
+    "slug": "baby-care",
+    "description": "Hypoallergenic, pediatrician-approved botanical bath washes, gentle balms, and biodegradable wipes.",
+    "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80",
+    "subcategories": ["Bath & Hair", "Moisturizers & Balms", "Diaper Care", "Pure Bamboo Wipes", "Massage Oils"],
+    "featuredTag": "Dermatologically Tested",
+    "colorAccent": "#D8E5F0"
+  },
+  {
+    "id": "feeding",
+    "name": "Feeding & Nursing",
+    "slug": "feeding",
+    "description": "Food-grade silicone tableware, anti-colic glass bottles, and ergonomically sculpted weaning spoons.",
+    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?auto=format&fit=crop&w=800&q=80",
+    "subcategories": ["Silicone Bowls & Plates", "Anti-Colic Bottles", "Silicone Bibs", "Sippy Cups & Straws", "Teethers"],
+    "featuredTag": "100% Food-Grade Silicone",
+    "colorAccent": "#F4E4A5"
+  },
+  {
+    "id": "nursery",
+    "name": "Nursery & Decor",
+    "slug": "nursery",
+    "description": "Scandi-inspired solid wood cribs, breathable organic mattresses, wall art, and cozy canopy tents.",
+    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80",
+    "subcategories": ["Cribs & Bassinets", "Organic Bedding & Quilts", "Mobiles & Wall Decor", "Storage & Baskets", "Night Lights"],
+    "featuredTag": "Solid Beechwood & Linen",
+    "colorAccent": "#E6DDF1"
+  },
+  {
+    "id": "baby-gear",
+    "name": "Baby Gear & Travel",
+    "slug": "baby-gear",
+    "description": "Ultra-lightweight compact travel strollers, ergonomic baby carriers, and i-Size car seats.",
+    "image": "https://images.unsplash.com/photo-1519834785169-98be25ec3f84?auto=format&fit=crop&w=800&q=80",
+    "subcategories": ["Travel Strollers", "Ergonomic Carriers", "Rockers & Bouncers", "High Chairs", "Diaper Bags"],
+    "featuredTag": "Aerospace Aluminium Frame",
+    "colorAccent": "#B9D5C4"
+  },
+  {
+    "id": "footwear",
+    "name": "First Steps Footwear",
+    "slug": "footwear",
+    "description": "Barefoot-friendly soft-sole leather moccasins and flexible slip-resistant toddler shoes.",
+    "image": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=800&q=80",
+    "subcategories": ["Soft-Sole Pre-Walkers", "Leather Moccasins", "Canvas First Walkers", "Booties", "Sandals"],
+    "featuredTag": "Orthopedic Approved",
+    "colorAccent": "#F3C6B3"
+  },
+  {
+    "id": "books",
+    "name": "Books & Audio",
+    "slug": "books",
+    "description": "High-contrast board books for infants, sensory touch-and-feel tales, and bedtime picture books.",
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80",
+    "subcategories": ["High-Contrast Newborn", "Touch & Feel", "Bedtime Stories", "Interactive Sound Books", "Early Readers"],
+    "featuredTag": "Soy-Ink Printed",
+    "colorAccent": "#D8E5F0"
+  },
+  {
+    "id": "mom-maternity",
+    "name": "Mom & Maternity",
+    "slug": "mom-maternity",
+    "description": "Ultra-soft bamboo lounge sets, postpartum recovery essentials, and supportive maternity pillows.",
+    "image": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=800&q=80",
+    "subcategories": ["Maternity Loungewear", "Nursing Bras & Tops", "Pregnancy Pillows", "Postpartum Care", "Belly Balms"],
+    "featuredTag": "Mother Care Approved",
+    "colorAccent": "#E6DDF1"
+  },
+  {
+    "id": "school-supplies",
+    "name": "School & Preschool",
+    "slug": "school-supplies",
+    "description": "Ergonomic mini backpacks, stainless steel bento lunch boxes, and beeswax non-toxic art crayons.",
+    "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=80",
+    "subcategories": ["Toddler Backpacks", "Stainless Steel Lunchware", "Water Bottles", "Non-Toxic Art Kits", "Stationery"],
+    "featuredTag": "Eco-Grade Materials",
+    "colorAccent": "#F4E4A5"
+  },
+  {
+    "id": "safety",
+    "name": "Baby Safety",
+    "slug": "safety",
+    "description": "Corner guards, HD video monitors with temperature sensors, magnetic cupboard locks, and baby gates.",
+    "image": "https://images.unsplash.com/photo-1584483766114-2cea6facdf57?auto=format&fit=crop&w=800&q=80",
+    "subcategories": ["Smart Baby Monitors", "Safety Gates", "Corner & Edge Bumpers", "Cabinet & Drawer Locks", "First Aid Kits"],
+    "featuredTag": "CE & BIS Certified",
+    "colorAccent": "#B9D5C4"
+  },
+  {
+    "id": "outdoor",
+    "name": "Outdoor & Swimming",
+    "slug": "outdoor",
+    "description": "UPF 50+ sun protection swimsuits, pop-up beach UV tents, and gentle mineral sunscreens.",
+    "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=800&q=80",
+    "subcategories": ["UPF 50+ Swimwear", "Sun Hats & Sunglasses", "UV Beach Tents", "Mineral Sunscreen", "Outdoor Play Mats"],
+    "featuredTag": "UPF 50+ Certified",
+    "colorAccent": "#F3C6B3"
+  }
+]
